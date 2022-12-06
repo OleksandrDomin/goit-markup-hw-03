@@ -60,10 +60,6 @@ li {
     list-style-type: none;
 }
 
-* {
-    outline: 2px solid red;
-}
-
 
 .container {
 width: 1200px;
