@@ -80,13 +80,18 @@ color: var(--hover-color);
 
 /**header section*/
 /*logo*/
-.header 
+.header
+{
+border-bottom: 1px solid var(--header-border);
+}
+
+/*.header 
 {
 display: flex;
 align-items: center;
 background-color: var(--white-cololr);
 border-bottom: 1px solid var(--header-border);
-}
+}*/
 
  .nav-box 
  {
@@ -111,12 +116,12 @@ text-decoration: none;
 color: var(--hover-color);
 }
 
-.header-list 
+.header-list
 {
-padding-left: 0;
-display: flex;
-margin-top: 0%;
-margin-bottom: 0%;
+    display: flex;
+    padding-left: 0;
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
 
 .header-item
@@ -421,6 +426,7 @@ margin-right: 30px;
 {
 background-color: var(--team-section-color);
 list-style-type: none;
+
 }
 
 .section.team 
@@ -458,14 +464,16 @@ letter-spacing: 0.03em;
 }
 
 
-.name-title {
+.name-title 
+{
 padding-top: 30px;
-padding-bottom: 10px;
+padding-bottom: 30px;
 margin-bottom: 0px;
 }
 
 .team-name
 {
+    margin-bottom: 10px;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
